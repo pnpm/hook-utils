@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"lib": [
+			"es2015"
+		],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outDir": "lib",
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"strict": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"target": "es5"
+	},
+	"include": [
+		"src/**/*.ts",
+		"typings/**/*.d.ts"
+	],
+	"atom": {
+		"rewriteTsconfig": true
+	}
+}
