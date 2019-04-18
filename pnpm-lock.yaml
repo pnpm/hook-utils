@@ -1,0 +1,20 @@
+dependencies:
+  '@pnpm/lockfile-types': 1.0.0
+  '@pnpm/types': 3.0.0
+lockfileVersion: 5
+packages:
+  /@pnpm/lockfile-types/1.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-9gI/trdFnW6Brw7zlbSkk8AX1o0uZlXA14CPM/KY+Vthx20b5+PGoBcRvji1htZhzGwDWpOgNm4InyOcNlrmcQ==
+  /@pnpm/types/3.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-YPqAUqoleOgbPhPK+hKIb7IHzKPCok2Kype/DBfJqenzvZjsR0V+uwZMS1FHcCKzSgn8g0J+y2q+g6yjJsAN0g==
+specifiers:
+  '@pnpm/lockfile-types': ^1.0.0
+  '@pnpm/types': ^3.0.0
