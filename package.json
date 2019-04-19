@@ -21,7 +21,7 @@
 	},
 	"scripts": {
 		"format": "prettier src/**/*.ts test/**/*.ts --fix",
-		"test": "preview && ts-node test --type-check",
+		"test": "preview && node test/type-check",
 		"tsc": "rimraf lib && tsc",
 		"prepublishOnly": "npm run tsc"
 	},
