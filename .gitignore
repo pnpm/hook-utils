@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+_node_modules
+
+# Coverage directory used by tools like istanbul
+coverage
+
+.tmp
+_docpress
+
+# Compiled code
+lib
+__package_previews__
+
+# Visual Studio Code configs
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Ignore npm and yarn's lockfiles
+package-lock.json
+npm-lockfile.json
+yarn.lock
