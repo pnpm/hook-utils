@@ -1,7 +1,7 @@
 {
 	"name": "@pnpm/hook-utils",
 	"description": "A helper for pnpmfile.js files",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"author": {
 		"name": "ExE Boss",
 		"url": "https://ExE-Boss.tech/"
@@ -15,7 +15,6 @@
 	"directories": {
 		"test": "test"
 	},
-
 	"engines": {
 		"node": ">=4"
 	},
@@ -30,13 +29,11 @@
 		"hook",
 		"hooks"
 	],
-
 	"homepage": "https://github.com/pnpm/pnpm/blob/master/packages/hook-utils#readme",
 	"repository": "https://github.com/pnpm/pnpm/blob/master/packages/hook-utils",
 	"bugs": {
 		"url": "https://github.com/pnpm/pnpm/issues"
 	},
-
 	"dependencies": {
 		"@pnpm/lockfile-types": "^1.0.0",
 		"@pnpm/types": "^3.0.0"
